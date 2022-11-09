@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{006B9956-D5D7-3CB3-CC4D-F4563FC5E710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AimingRig", "AimingRig.csproj", "{7937E247-5E24-DB42-12EC-1C1CE6E8657C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{006B9956-D5D7-3CB3-CC4D-F4563FC5E710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006B9956-D5D7-3CB3-CC4D-F4563FC5E710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006B9956-D5D7-3CB3-CC4D-F4563FC5E710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006B9956-D5D7-3CB3-CC4D-F4563FC5E710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7937E247-5E24-DB42-12EC-1C1CE6E8657C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7937E247-5E24-DB42-12EC-1C1CE6E8657C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7937E247-5E24-DB42-12EC-1C1CE6E8657C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7937E247-5E24-DB42-12EC-1C1CE6E8657C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
