@@ -2495,7 +2495,7 @@ GameObject:
   - component: {fileID: 1054246179}
   - component: {fileID: 1054246178}
   m_Layer: 5
-  m_Name: Car Wheel price (1)
+  m_Name: 'Car Model  price '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4756,7 +4756,7 @@ GameObject:
   - component: {fileID: 2123579597}
   - component: {fileID: 2123579596}
   m_Layer: 5
-  m_Name: Car Wheel name (1)
+  m_Name: 'Car Model name '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
