@@ -92,7 +92,7 @@ public class Carscript : MonoBehaviour
         totalP.SetTotalPrice();
     }
 
-    private void SetCarBodyMaterial()
+    public void SetCarBodyMaterial()
     {
         CarRenderer.material = Carbodycolour[currentItem];
     }

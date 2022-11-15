@@ -5,7 +5,13 @@ using UnityEngine;
 public class carclass : Carscript
 {
 
-  
+    private void Update()
+    {
+        NextSelection();
+        BackSelection();
+        SetCarBodyMaterial();
+        GetPrice();
+    }
 
 
 }
