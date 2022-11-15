@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class carclass : MonoBehaviour
 {
+    
+    public
+    
     // Start is called before the first frame update
     void Start()
     {

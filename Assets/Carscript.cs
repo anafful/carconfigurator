@@ -31,7 +31,7 @@ public class Carscript : MonoBehaviour
 
 
 
-
+    carclass carclass = new carclass();
 
 
 
