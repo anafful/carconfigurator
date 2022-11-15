@@ -16,7 +16,9 @@ public class Carscript : MonoBehaviour
 
 
 
-
+    //menu panels
+    public GameObject MainMenupanel;
+    public GameObject Menupanel;
 
 
     //arrays
@@ -56,6 +58,23 @@ public class Carscript : MonoBehaviour
     {
 
     }
+
+
+    public void OpenMenu()
+    {
+        if(Menupanel != null)
+        {
+            Menupanel.SetActive(true);
+            MainMenupanel.SetActive(false);
+        }
+
+    }
+
+    public void CloseMenu()
+    {
+        Menupanel.SetActive(true);
+    }
+
 
 
     public void NextSelection()
