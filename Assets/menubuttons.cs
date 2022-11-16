@@ -22,5 +22,6 @@ public class menubuttons : MonoBehaviour
     public void CloseMenu()
     {
         Menupanel.SetActive(true);
+        MainMenupanel.SetActive(false);
     }
 }
