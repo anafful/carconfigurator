@@ -209,7 +209,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1295945456}
         m_TargetAssemblyTypeName: Carscript, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OpenMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -782,7 +782,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1295945456}
         m_TargetAssemblyTypeName: Carscript, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: CloseMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3597,7 +3597,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1295945456}
         m_TargetAssemblyTypeName: Carscript, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OpenMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3677,6 +3677,8 @@ MonoBehaviour:
   totalP: {fileID: 990887187}
   carcolour: {fileID: 587837799}
   CarbodyPrice: {fileID: 694191117}
+  MainMenupanel: {fileID: 0}
+  Menupanel: {fileID: 0}
   CarColour:
   - Yellow
   - Blue
@@ -5017,7 +5019,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1295945456}
         m_TargetAssemblyTypeName: Carscript, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OpenMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5456,7 +5458,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1295945456}
         m_TargetAssemblyTypeName: Carscript, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OpenMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5572,8 +5574,8 @@ Canvas:
   m_GameObject: {fileID: 1862520621}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 963194227}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1

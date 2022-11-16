@@ -368,6 +368,7 @@
 "Assets/Carscript.cs"
 "Assets/Carspoiler.cs"
 "Assets/CarWheel.cs"
+"Assets/menubuttons.cs"
 "Assets/RotateCar.cs"
 "Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Scenes/2D/LoseSightWhenTargetsFallsOffThePlatform.cs"
 "Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Scenes/2D/MouseScrollZoom2D.cs"
