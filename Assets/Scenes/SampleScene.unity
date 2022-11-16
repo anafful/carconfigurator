@@ -3248,7 +3248,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.1286348, y: -0.6946279, z: 0.1283747, w: 0.69603527}
-  m_LocalPosition: {x: 3.18, y: 1.95, z: -0}
+  m_LocalPosition: {x: 4.456, y: 2.438, z: -0.003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7470,9 +7470,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1081812995}
+      - m_Target: {fileID: 1081812996}
         m_TargetAssemblyTypeName: menubuttons, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: CloseMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
