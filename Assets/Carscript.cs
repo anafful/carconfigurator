@@ -29,7 +29,7 @@ public class Carscript : MonoBehaviour
 
 
 
-    carclass carclass = new carclass();
+    //carclass carclass = new carclass();
 
 
 
