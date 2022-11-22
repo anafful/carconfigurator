@@ -7,15 +7,19 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName = "CarPart", menuName ="Cars")]
 public class Car : ScriptableObject
 {
-    public totalprice totalP;
-    
 
-    public Text Name;
-    public Text CarPartPrice;
+    
+    public GameObject totalP;
+
+
+    public GameObject Name;
+    public int CarPartPrice;
 
     public GameObject[] CarModel;
     public string[] CarOptions;
-    public Renderer CarRenderer;
     public Material[] ColourChange;
     public int[] CarPrice;
+
+
+   
 }

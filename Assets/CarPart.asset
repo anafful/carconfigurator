@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 956c6f0272796a141b14c1bc1e3e678e, type: 3}
   m_Name: CarPart
   m_EditorClassIdentifier: 
-  totalP: {fileID: 0}
+  totalP: {fileID: 5971073749552105234, guid: 94d3ba0508a28d74d8abb6a71bf677d6, type: 3}
   Name: {fileID: 0}
-  CarPartPrice: {fileID: 0}
-  CarOptions: []
-  CarRenderer: {fileID: 0}
-  ColourChange: []
-  CarPrice: 
+  CarPartPrice: 0
+  CarModel:
+  - {fileID: 1248598967819147742, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+  CarOptions:
+  - Yellow
+  - Blue
+  - Red
+  ColourChange:
+  - {fileID: 2100000, guid: d2344366b80fe3d4f886ec412e0174fa, type: 2}
+  - {fileID: 2100000, guid: c4c2ee3e832cffd48bb9d156c2b21376, type: 2}
+  - {fileID: 2100000, guid: 74196cf5d503c14488ae1ef1dbc6c9a4, type: 2}
+  CarPrice: e8030000d0070000b80b0000
