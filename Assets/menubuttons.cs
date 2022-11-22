@@ -7,15 +7,16 @@ public class menubuttons : MonoBehaviour
 {
     public GameObject Menupanel;
     public GameObject MainMenupanel;
-    [SerializeField] GameObject[] CarCameras;
+    [SerializeField] GameObject[] CarCameras = new GameObject[3];
+    [SerializeField] int[] CarcamersID = new int[] {0, 1, 2};
 
     private int CurrentCamera;
 
 
 
-    private void Update()
+     void Update()
     {
-       
+        
     }
 
 
@@ -27,7 +28,7 @@ public class menubuttons : MonoBehaviour
             MainMenupanel.SetActive(false);
         }
 
-
+        
 
     }
 
@@ -44,8 +45,13 @@ public class menubuttons : MonoBehaviour
 
         for(int i = 0; i < CarCameras.Length; i++)
         {
+            //CarCameras[i].gameObject.SetActive(false);
+
+            Debug.Log(CarCameras[i]);
+            Debug.Log(CarcamersID[i]);
             CarCameras[i].gameObject.SetActive(false);
-            Debug.Log("switch camera");
+
+
         }
         //if(CarCameras.Length > 0)
         {
