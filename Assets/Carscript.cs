@@ -58,11 +58,6 @@ public class Carscript : MonoBehaviour
     }
 
 
-   
-
-   
-
-
 
     public void NextSelection()
     {

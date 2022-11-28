@@ -12,7 +12,7 @@ public class Car : ScriptableObject
     public GameObject totalP;
 
 
-    public GameObject Name;
+    public string   Name;
     public int CarPartPrice;
 
     public GameObject[] CarModel;
