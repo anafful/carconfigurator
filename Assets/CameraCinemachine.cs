@@ -7,7 +7,8 @@ using Cinemachine;
 public class CameraCinemachine : MonoBehaviour
 {
     [SerializeField] GameObject[] CarCameras = new GameObject[4];
-    [SerializeField] int[] CarcamerasID = new int[] { 0, 1, 2, 3};
+    //[SerializeField] int[] CarcamerasID = new int[] { 0, 1, 2, 3};
+    private int currentcam = 0;
   
     void Start()
     {
@@ -19,26 +20,38 @@ public class CameraCinemachine : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            for (int i = 0; i < CarcamerasID.Length; i++)
-            {
-             
-
-                Debug.Log(CarCameras[i]);
-                Debug.Log(CarcamerasID[i]);
-
-                //CarCameras[i].SetActive(false);
-                
-                if (CarcamerasID[i] == 0)
-                    {
-                    CarCameras[i].SetActive(false);
-                    }
-
+              if (currentcam == CarCameras.Length)
+                 
+                    
+                currentcam = 0;
                
+                else
+                    currentcam++;
+           
+            for (int i = 0; i < CarCameras.Length; i++)
+            {
+                //Carcameras = 0;
+                if (i == currentcam) CarCameras[i].SetActive(true);
+               // Debug.Log(CarCameras[i]);
+                //Debug.Log(CarcamerasID[i]);
+
+                else CarCameras[i].SetActive(false);    
+                //CarCameras[i].SetActive(false);
+
+
+
+
+
             }
+
+        }
+            
+            
+          
 
             }
             
         }
-    }
+    
 
 
